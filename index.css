@@ -61,7 +61,6 @@ body {
   padding: 20px;
   color: navy;
   font-size: 18px;
-  border-bottom: 2px solid #ddd;
   min-height: 120px;       /* ✅ ensures visible box even when empty */
   display: flex;
   flex-direction: column;
