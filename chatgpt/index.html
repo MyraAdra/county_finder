@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries website</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="title" class="title">
+    <h1 style="color:darkgoldenrod ">Welcome to Country Finder</h1>
+  </div>
+
+  <div id="topdiv">
+    <button id="loader" onclick="loadAllCountries()">Load All Countries</button>
+    <select id="country_ddl" onchange="display_name2()"></select>
+    <span id="span_name"></span>
+  </div>
+
+  <div id="country_info"></div>
+
+
+  <div id="flagdiv"></div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
